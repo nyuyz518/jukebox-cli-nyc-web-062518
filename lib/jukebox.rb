@@ -48,13 +48,17 @@ def run
   input = ""
   puts "Please enter a command:"
   user_commend = gets.chomp
-  when input == "help"
-    help
-  when input == "play"
-      play (songs)
-    # list
-     # play
-   # else
-     # exit_jukebox
-   # end
-# end
+  
+    when 'list'
+      list(songs)
+    when 'play'
+      list(songs)
+      play(songs)
+    when input == "help"
+      help
+    when input == 'exit'
+      exit_jukebox
+end 
+
+  
+end
