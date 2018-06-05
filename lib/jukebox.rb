@@ -44,14 +44,14 @@ def exit_jukebox
 end
 
 
-def run
-  puts "Please enter a command:"
-  user_commend = gets.chomp
-   unless user_commend = "exit"
-     help
-     list
-     play
-   else
-     exit_jukebox
-   end
-end
+# def run
+  # puts "Please enter a command:"
+  # user_commend = gets.chomp
+   # unless user_commend = "exit"
+    # help
+    # list
+     # play
+   # else
+     # exit_jukebox
+   # end
+# end
