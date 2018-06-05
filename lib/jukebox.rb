@@ -27,7 +27,7 @@ def list (songs)
   end
 end
 
-def play (song)
+def play (songs)
   puts "Please enter a song name or number:"
   song_to_play = gets.chomp
   if (1..9).to_a.include?(song_to_play.to_i)
