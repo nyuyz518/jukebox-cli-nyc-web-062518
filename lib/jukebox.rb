@@ -39,13 +39,6 @@ def play (song)
 end
 
 
-  elsif songs.include?(song_to_play)
-    puts "Playing #{song_to_play}"
-  else
-    puts "Invalid input, please try again"
-  end
-end
-
 def exit_jukebox
   puts "Goodbye"
 end
