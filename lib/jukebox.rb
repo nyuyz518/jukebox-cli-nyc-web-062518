@@ -1,5 +1,5 @@
 require "pry"
-class Jukebox
+
   
   songs = [
   "Phoenix - 1901",
